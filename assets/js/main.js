@@ -13,8 +13,11 @@ const color = prompt('Inserisci il tuo colore preferito');
 
 console.log(color);
 
+// aggiungi un icona alla fine
+const icon = '&check;'
+
 // Scrivi sulla pagina il risultato 
-const result = `${first_name}${last_name}${color}${'22'}`;
+const result = `${first_name}${last_name}${color}${'22'} ${icon}`  ;
 
 document.getElementById('result').innerHTML = result;
 
